@@ -25,6 +25,7 @@ namespace MVC_Example
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/font-awsome.css",
                       "~/Content/site.css"));
         }
     }
