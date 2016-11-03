@@ -16,7 +16,8 @@ namespace MVC_Example.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.Title = "About";
+            ViewBag.Name = "Waynell";
             return View();
         }
 
